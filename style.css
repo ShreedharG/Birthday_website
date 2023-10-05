@@ -1,0 +1,94 @@
+body{
+  text-align: center;
+  background: #a2d2ff;
+  color: white;
+  font-family: 'Happy Monkey', cursive;
+
+}
+
+#photo{
+  border-radius: 100%;
+  border: 6px solid rgb(223, 101, 152);
+}
+
+h1,h2,h3,p{
+  text-shadow: 0.5px 0.5px 2px black;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bday-age{
+  font-size: 30px;
+  margin: 40px 0 10px 0;
+
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #EFB0C9;
+}
+
+#hpbday{
+  font-size: 50px;
+}
+
+#bday-date{
+  font-size: 20px;
+  margin-top: 3px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #EFB0C9;
+}
+
+#gift-img1,#gift-img2,#gift-img3,#gift-img4{
+  width: 950px;
+  height: 600px;
+
+  margin: 0px auto;
+
+  border: 6px solid white;
+  border-radius: 30px;
+  
+  background-image: url("updated_gift.jpg");
+  background-size: cover;
+}
+
+#gift-img1:hover{
+  transition: 0.09s;
+  background-size: cover;
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tnMmRhNTAxN2h4NXBmZ3RkZXlvcjU1dm1mNTBzZ2diaG5sOHlociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TIG6XFVuOriidsTsdu/giphy.gif");
+}
+
+.gift-title{
+  margin: 20px auto;
+}
+
+#gift-hint{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.gift-section{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+#gift-img2:hover{
+  transition: 0.01s;
+  background-size: cover;
+  background-image: url("https://media3.giphy.com/media/nLwz5QzqsBb6H7TJxo/giphy.gif?cid=ecf05e473qwjmwdwwrmsze79dquqq5ntft173vrnx8ekw2tb&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#gift-img3:hover{
+  transition: 0.01s;
+  background-size: cover;
+  background-image: url("https://media2.giphy.com/media/WJF8CU5VvXDlm/giphy.gif?cid=ecf05e47n3k4yymw3uaozymop6y7curowp78jb8p3e2qyt3b&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#gift-img4:hover{
+  transition: 0.01s;
+  background-size: 950px 600px;
+  background-image: url("https://media0.giphy.com/media/rkoli75BEjGXr7ck4o/giphy.gif?cid=ecf05e47q39ux2we6yl2fc9ws8suojaw17smztki0cjdea2k&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
